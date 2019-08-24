@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- <meta name="baseurl" content="https://control.fangbee.cn"> -->
+  <meta name="baseurl" content="https://test.control.fangbee.cn">
+  <!--<meta name="baseurl" content="http://admin.test.fangbee.cn">-->
+  <title>公司组织架构</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      min-height: 100vh;
+    }
+  </style>
+  <script>
+    window.user = {
+      id: 1,
+      name: '测试用户123',
+      phone: 18888888888,
+      avatar: 'https://images.fangbee.cn/17/photos/84cbf8942484e8e8752e23fa3c4437d5filepng',
+      action: 1,
+      discount_shenhe_count: null,
+      discount_chaosong_count: 21,
+      people_shenhe_count: null,
+      people_chaosong_count: 4,
+      jiechou_shenhe_count: null,
+      jiechou_chaosong_count: 6,
+      unsubscribe_shenhe_count: null,
+      unsubscribe_chaosong_count: 8,
+      unqianyue_shenhe_count: null,
+      unqianyue_chaosong_count: 10,
+      quxiao_shenhe_count: null,
+      quxiao_chaosong_count: 12,
+    }
+  </script>
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
